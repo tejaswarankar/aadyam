@@ -1,0 +1,50 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\js\pages\cards\basic.js" />
+    <None Include="wwwroot\js\pages\cards\colored.js" />
+    <None Include="wwwroot\js\pages\charts\chartjs.js" />
+    <None Include="wwwroot\js\pages\charts\flot.js" />
+    <None Include="wwwroot\js\pages\charts\jquery-knob.js" />
+    <None Include="wwwroot\js\pages\charts\morris.js" />
+    <None Include="wwwroot\js\pages\charts\sparkline.js" />
+    <None Include="wwwroot\js\pages\examples\forgot-password.js" />
+    <None Include="wwwroot\js\pages\examples\profile.js" />
+    <None Include="wwwroot\js\pages\examples\sign-in.js" />
+    <None Include="wwwroot\js\pages\examples\sign-up.js" />
+    <None Include="wwwroot\js\pages\forms\advanced-form-elements.js" />
+    <None Include="wwwroot\js\pages\forms\basic-form-elements.js" />
+    <None Include="wwwroot\js\pages\forms\editors.js" />
+    <None Include="wwwroot\js\pages\forms\form-validation.js" />
+    <None Include="wwwroot\js\pages\forms\form-wizard.js" />
+    <None Include="wwwroot\js\pages\index.js" />
+    <None Include="wwwroot\js\pages\maps\google.js" />
+    <None Include="wwwroot\js\pages\maps\jvectormap.js" />
+    <None Include="wwwroot\js\pages\medias\image-gallery.js" />
+    <None Include="wwwroot\js\pages\tables\editable-table.js" />
+    <None Include="wwwroot\js\pages\tables\jquery-datatable.js" />
+    <None Include="wwwroot\js\pages\ui\animations.js" />
+    <None Include="wwwroot\js\pages\ui\dialogs.js" />
+    <None Include="wwwroot\js\pages\ui\modals.js" />
+    <None Include="wwwroot\js\pages\ui\notifications.js" />
+    <None Include="wwwroot\js\pages\ui\range-sliders.js" />
+    <None Include="wwwroot\js\pages\ui\sortable-nestable.js" />
+    <None Include="wwwroot\js\pages\ui\tooltips-popovers.js" />
+    <None Include="wwwroot\js\pages\widgets\infobox\infobox-1.js" />
+    <None Include="wwwroot\js\pages\widgets\infobox\infobox-2.js" />
+    <None Include="wwwroot\js\pages\widgets\infobox\infobox-3.js" />
+    <None Include="wwwroot\js\pages\widgets\infobox\infobox-4.js" />
+    <None Include="wwwroot\js\pages\widgets\infobox\infobox-5.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="popper.js" Version="1.14.3" />
+  </ItemGroup>
+
+</Project>
